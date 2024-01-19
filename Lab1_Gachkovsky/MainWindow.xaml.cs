@@ -16,27 +16,31 @@ using System.Windows.Shapes;
 
 namespace Lab1_Gachkovsky
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
         }
-
-        private void Employee_OnClick(object sender, RoutedEventArgs
-e)
+        private void Company_OnClick(object sender, RoutedEventArgs e)
         {
-            WindowEmployee wEmployee = new WindowEmployee();
-            wEmployee.Show();
+            WindowCompany wc = new WindowCompany();
+            wc.Show();
         }
-        private void Role_OnClick(object sender, RoutedEventArgs e)
+        private void Person_OnClick(object sender, RoutedEventArgs e)
         {
-            WindowRole wRole = new WindowRole();
-            wRole.Show();
+            WindowPerson wp = new WindowPerson();
+            wp.Show();
         }
-
+        private void OrgRegistration_OnClick(object sender, RoutedEventArgs e)
+        {
+            WindowOrgRegistration wor = new WindowOrgRegistration();
+            wor.Show();
+        }
+        private void OrgLegForm_OnClick(object sender, RoutedEventArgs e)
+        {
+            WindowOrgLegForm wolf = new WindowOrgLegForm();
+            wolf.Show();
+        }
     }
 }

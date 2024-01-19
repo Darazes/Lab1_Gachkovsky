@@ -6,45 +6,43 @@ namespace Lab1_Gachkovsky.ViewModel
 {
     class PersonViewModel
     {
-        public ObservableCollection<Person> ListPerson { get; set; } =
-        new ObservableCollection<Person>();
+        public ObservableCollection<Person> ListPerson { get; set; } = new ObservableCollection<Person>();
         public PersonViewModel()
         {
-            this.ListPerson.Add(
+            ListPerson.Add(
             new Person
             {
                 Id = 1,
-                RoleId = 1,
-                FirstName = "Иван",
-                LastName = "Иванов",
-                Birthday = new DateTime(1980, 02, 28)
+                Shifer = 14214,
+                Inn = "4444555566667777",
+                Type = false,
+                Data = new DateTime(1980, 02, 05)
             });
-            this.ListPerson.Add(
+            ListPerson.Add(
             new Person
             {
                 Id = 2,
-                RoleId = 2,
-                FirstName = "Петр",
-                LastName = "Петров",
-                Birthday = new DateTime(1981, 03, 20)
+                Shifer = 53534,
+                Inn = "1111222233334444",
+                Type = false,
+                Data = new DateTime(1981, 08, 12)
             });
-            this.ListPerson.Add(
+            ListPerson.Add(
              new Person
              {
-                 Id = 3,
-                 RoleId = 3,
-                 FirstName = "Виктор",
-                 LastName = "Викторов",
-                 Birthday = new DateTime(1982, 04, 15)
+                 Shifer = 63463,
+                 Inn = "2222333344445555",
+                 Type = false,
+                 Data = new DateTime(1982, 04, 11)
              });
-            this.ListPerson.Add(
+            ListPerson.Add(
             new Person
             {
                 Id = 4,
-                RoleId = 3,
-                FirstName = "Сидор",
-                LastName = "Сидоров",
-                Birthday = new DateTime(1983, 05, 10)
+                Shifer = 16515,
+                Inn = "6666777788889999",
+                Type = false,
+                Data = new DateTime(1983, 05, 09)
             });
         }
     }

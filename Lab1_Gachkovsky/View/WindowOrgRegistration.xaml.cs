@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Lab1_Gachkovsky.View
 {
     /// <summary>
-    /// Логика взаимодействия для WindowEmployee.xaml
+    /// Логика взаимодействия для WindowOrgRegistration.xaml
     /// </summary>
-    public partial class WindowEmployee : Window
+    public partial class WindowOrgRegistration : Window
     {
-        public WindowEmployee()
+        public WindowOrgRegistration()
         {
             InitializeComponent();
         }
