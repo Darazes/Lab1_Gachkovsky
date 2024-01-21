@@ -74,7 +74,6 @@
     <Compile Include="View\WindowPerson.xaml.cs">
       <DependentUpon>WindowPerson.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WindowsCompany.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
